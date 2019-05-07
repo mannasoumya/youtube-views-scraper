@@ -1,0 +1,19 @@
+{
+  "name": "youtube_views_cheerio",
+  "version": "1.0.0",
+  "description": "This scrapes youtube video views",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "scraping",
+    "youtube"
+  ],
+  "author": "Manna",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.5.0"
+  }
+}
