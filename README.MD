@@ -8,7 +8,7 @@ GO to CLI (Node and npm Must be installed)
 <br>
 open any code editor(VSCode || Sublime || Atom || etc..)
 <br>
-Change <b>yt_url</b> to your respective Youtube Video URL 
+Change <b>yt_url</b> to your respective Youtube Video URL in <b>index.js<b>
 <br>
 Change setInterval to your desired time
 <br>
@@ -16,8 +16,6 @@ Youtube Views are saved in the cwd in a textfile named <b>log.txt</b>
 <br>
 From CLI run the following:
 <br>
-npm init
+<b>npm install<b>
 <br>
-npm install
-<br>
-npm start
+<b>npm start<b>
