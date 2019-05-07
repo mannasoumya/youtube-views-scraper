@@ -8,7 +8,7 @@ GO to CLI (Node and npm Must be installed)
 <br>
 open any code editor(VSCode || Sublime || Atom || etc..)
 <br>
-Change <b>yt_url</b> to your respective Youtube Video URL in <b>index.js<b>
+Change <b>yt_url</b> to your respective Youtube Video URL in <b>index.js</b>
 <br>
 Change setInterval to your desired time
 <br>
