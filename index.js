@@ -13,8 +13,7 @@ function getcount() {
       console.log($("div.watch-view-count").html());
       let viewcount = $("div.watch-view-count").html().toString();
       viewcount = viewcount.replace(/\D/g, "");
-      viewcount = viewcount + "," + new Date() + " @@" + "\r\n";
+      viewcount = viewcount + "," + new Date() + "\r\n";
       fs.appendFileSync('log.txt', viewcount);
     });
 }
-
