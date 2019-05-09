@@ -19,3 +19,6 @@ From CLI run the following:
 <b>npm install<b>
 <br>
 <b>npm start<b>
+<br>
+<br>
+The views scraped are not <b>Real Time</b> since Youtube Views in a page do not update in Real Time...!!!
