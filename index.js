@@ -5,6 +5,7 @@ const readline = require("readline").createInterface({
   input: process.stdin,
   output: process.stdout
 });
+const interval = process.argv[2];
 console.log("\033[2J");
 readline.question(`\r\nEnter YouTube Video URL :  `, yt_url => {
   async function getcount() {
@@ -28,5 +29,5 @@ readline.question(`\r\nEnter YouTube Video URL :  `, yt_url => {
         fs.appendFileSync("log.txt", data);
       })
       .catch(err => console.error(err));
-  }, 100);
+  }, interval ? interval : 100);
 });
